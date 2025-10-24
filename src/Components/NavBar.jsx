@@ -2,7 +2,7 @@ import cartEmpty from "../assets/cart-empty.png";
 import cartFull from "../assets/cart-full.png";
 
 /**
- * NavBar
+ NavBar
  */
 export default function NavBar({ cartCount = 0 }) {
   const cartImage = cartCount > 0 ? cartFull : cartEmpty;

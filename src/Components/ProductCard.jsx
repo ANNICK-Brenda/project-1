@@ -3,7 +3,6 @@ import QuantityCounter from "./QuantityCounter";
 
 /**
  * ProductCard
-
  */
 export default function ProductCard({ id, productName, brand, image, price, addToCart }) {
   const [count, setCount] = useState(0);
